@@ -85,6 +85,13 @@ a {
   line-height: 1.4;
 }
 
+bio {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;

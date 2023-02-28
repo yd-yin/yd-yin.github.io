@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<table style="width: 100%; max-width: 860px; border: 0px; border-spacing: 0px; border-collapse: separate; margin-right: auto; margin-left: auto; ">
+<table style="width: 100%; max-width: 900px; border: 0px; border-spacing: 0px; border-collapse: separate; margin-right: auto; margin-left: auto; ">
   <tbody>
   <tr style="padding: 0px">
     <td style="padding: 0px">
@@ -53,10 +53,13 @@
         <tbody>
         <tr>
           <td style="padding-top: 0; ">
-            <p style="margin-top: 5px">I am a Ph.D. student at <a href="https://cs.pku.edu.cn/">School of Computer Science</a>, <a
-                    href="https://www.pku.edu.cn/">Peking University</a>, where I am honored to be advised by <a href="https://cfcs.pku.edu.cn/baoquan/">Prof. Baoquan Chen</a>
-              and co-advised by <a href="https://hughw19.github.io/">Prof. He Wang</a>.
-              I am also fortunate to work closely with <a href="https://fqnchina.github.io/">Dr. Qingnan Fan</a> at Tencent AI Lab.
+            <p style="margin-top: 5px">
+              <bio>
+                I am a Ph.D. student at <a href="https://cs.pku.edu.cn/">School of Computer Science</a>, <a
+                      href="https://www.pku.edu.cn/">Peking University</a>, where I am honored to be advised by <a href="https://cfcs.pku.edu.cn/baoquan/">Prof. Baoquan Chen</a>
+                and co-advised by <a href="https://hughw19.github.io/">Prof. He Wang</a>.
+                I am also fortunate to work closely with <a href="https://fqnchina.github.io/">Dr. Qingnan Fan</a> at Tencent AI Lab.
+              </bio>
             </p>
             <p>
               My research interests lie in 3D computer vision, especially 3D pose estimation, including object pose estimation, camera localization and human pose estimation.
@@ -76,7 +79,7 @@
         </tr>
         <tr>
           <td style="padding-bottom: 10px; padding-top: 5px; font-size: 14px">
-            &dagger; corresponding author(s)
+            *: equal contribution; &dagger; corresponding author(s)
           </td>
         </tr>
         </tbody>
@@ -86,6 +89,31 @@
       <table style="width: 100%; border: 0px; border-spacing: 0px; border-collapse: separate; margin-right: auto; margin-left: auto; ">
         <tbody>
 
+
+        <tr>
+          <td style="padding: 20px; padding-bottom: 30px; width: 30%; vertical-align: middle">
+            <img style="width: 100%; max-width: 100%" src='images/flow.jpg'>
+          </td>
+          <td style="padding: 20px; padding-bottom: 30px; width: 70%; vertical-align: middle">
+            <papertitle>Delving into Discrete Normalizing Flows on SO(3) Manifold for Probabilistic Rotation Modeling</papertitle>
+            <br>
+            Yulin Liu*,
+            Haoran Liu*,
+            <b>Yingda Yin</b>*,
+            Yang Wang,
+            <a href="https://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a><sup>&dagger;</sup>,
+            <a href="https://hughw19.github.io/">He Wang</a><sup>&dagger;</sup>
+            <br>
+            <em>CVPR</em> 2023
+            <br>
+<!--            <a href="https://arxiv.org/abs/2203.15765">arXiv</a> / <a href="https://yd-yin.github.io/FisherMatch/"> project page </a> /-->
+<!--            <a href="https://github.com/yd-yin/FisherMatch"> code </a> / <a href="https://youtu.be/GwQhnG6krCI"> video </a>-->
+            <p style="margin-bottom: 10px; margin-top: 10px">
+              We propose a discrete normalizing flow on SO(3) manifold, through which one can not only effectively express arbitrary distributions on SO(3),
+              but also conditionally build the target distribution given input observations.
+            </p>
+          </td>
+        </tr>
 
         <tr>
           <td style="padding: 20px; padding-bottom: 30px; width: 28%; vertical-align: middle">
@@ -189,6 +217,35 @@
               We focus on improving the backward pass of deep rotation regression. Leveraging Riemannian optimization,
               we propose a SO(3) manifold-aware gradient that directly backpropagates into deep network weights.
               Our plug-and-play gradient layer can be applied to different rotation representations.
+            </p>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td style="padding: 20px; padding-bottom: 30px; width: 28%; vertical-align: middle">
+            <img style="width: 100%; max-width: 100%" src='images/reflection.jpg'>
+          </td>
+          <td style="padding: 20px; padding-bottom: 30px; width: 72%; vertical-align: middle">
+            <papertitle>Deep Reflection Prior</papertitle>
+            <br>
+            <b>Yingda Yin&ast;</b>,
+            <a href="https://fqnchina.github.io/">Qingnan Fan</a>*,
+            <a href="https://www.dongdongchen.bid/">Dongdong Chen</a>,
+            Yujie Wang,
+            <a href="https://angelicaiaviles.wordpress.com/">Angelica Aviles-Rivero</a>,
+            <a href="https://liruoteng.github.io/">Ruoteng Li</a>,
+            <a href="https://www.damtp.cam.ac.uk/user/cbs31/Home.html">Carola-Bibiane Schönlieb</a>
+            <a href="https://www.cs.huji.ac.il/~danix/">Dani Lischinski</a>,
+            <a href="https://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a>
+            <br>
+            <em>ArXiv</em> 2019
+            <br>
+            <a href="https://arxiv.org/abs/1912.03623"> arXiv </a>
+            <p style="margin-bottom: 10px; margin-top: 10px">
+              We propose a learning-based approach that captures the reflection statistical prior for single image reflection removal.
+              Our algorithm is driven by optimizing the target with joint constraints enhanced between multiple input images during the training stage,
+              but is able to eliminate reflections only from a single input for evaluation.
             </p>
           </td>
         </tr>
