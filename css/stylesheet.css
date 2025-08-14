@@ -100,10 +100,19 @@ heading {
 }
 
 papertitle {
+  display: block;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bolder;
-  line-height: 1.4;
+  line-height: 1.6;
+}
+
+venue {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  /*font-weight: bolder;*/
+  line-height: 2;
+  font-style: italic;
 }
 
 
